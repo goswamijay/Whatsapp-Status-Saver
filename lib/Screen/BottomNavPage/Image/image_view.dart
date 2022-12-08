@@ -1,10 +1,11 @@
 import 'dart:developer';
 import 'dart:io';
-import 'package:dio/dio.dart';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:image_gallery_saver/image_gallery_saver.dart';
 import 'package:path_provider/path_provider.dart';
+import 'package:share_plus/share_plus.dart';
 
 class ImageView extends StatefulWidget {
   final String? ImagePath;
@@ -20,6 +21,9 @@ class _ImageViewState extends State<ImageView> {
     const Icon(Icons.print),
     const Icon(Icons.share),
   ];
+
+  List<String> imagePaths = [];
+
 
   @override
   Widget build(BuildContext context) {
@@ -92,10 +96,15 @@ class _ImageViewState extends State<ImageView> {
                         break;
                       case 1:
                         log('Print image');
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          const SnackBar(content: Text("Can't Print"))
+                        );
                         //  FlutterNativeApi.printImage(widget.ImagePath, widget.ImagePath?.split("/").last);
                         break;
                       case 2:
                         log('Share image');
+                        imagePaths.add(widget.ImagePath!);
+                        Share.shareFiles(imagePaths);
                         // FlutterNativeApi.shareImage(widget.ImagePath);
                         break;
                     }

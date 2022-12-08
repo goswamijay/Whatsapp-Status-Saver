@@ -1,8 +1,11 @@
+import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:switcher_button/switcher_button.dart';
+import 'package:whatsapp_status_saver/Provider/getStatusProvider.dart';
 import 'package:whatsapp_status_saver/Screen/BottomNavPage/Video/Video.dart';
 
+import '../Contstant/Constant.dart';
 import '../Provider/bottom_nav_provider.dart';
 import '../Utils/ThemeModel.dart';
 import 'BottomNavPage/Image/Image.dart';
@@ -15,6 +18,12 @@ class MainActivity extends StatefulWidget {
 }
 
 class _MainActivityState extends State<MainActivity> {
+
+
+  @override
+  initState() {
+    AppConstants.getInfo1();
+  }
   List<Widget> pages = [ImageHomePage(), VideoHomePage()];
   @override
   Widget build(BuildContext context) {

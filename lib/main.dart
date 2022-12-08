@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:whatsapp_status_saver/Provider/getStatusProvider.dart';
-import 'package:whatsapp_status_saver/Screen/Sparce_screen.dart';
+import 'package:whatsapp_status_saver/Widget/Sparce_screen.dart';
 
 import 'Provider/bottom_nav_provider.dart';
 import 'Utils/ThemeModel.dart';

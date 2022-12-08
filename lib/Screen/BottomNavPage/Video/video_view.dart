@@ -4,6 +4,7 @@ import 'dart:io';
 import 'package:chewie/chewie.dart';
 import 'package:flutter/material.dart';
 import 'package:image_gallery_saver/image_gallery_saver.dart';
+import 'package:share_plus/share_plus.dart';
 import 'package:video_player/video_player.dart';
 
 class VideoView extends StatefulWidget {
@@ -19,6 +20,9 @@ class _VideoViewState extends State<VideoView> {
     const Icon(Icons.download),
     const Icon(Icons.share),
   ];
+
+  List<String> videoPaths = [];
+
 
   ChewieController? _ChewieController;
 
@@ -72,6 +76,8 @@ class _VideoViewState extends State<VideoView> {
                         break;
                       case 1:
                         log('Share image');
+                        videoPaths.add(widget.VideoPath!);
+                        Share.shareFiles(videoPaths);
                         //FlutterNativeApi.shareVideo(widget.VideoPath);
                         break;
                     }
