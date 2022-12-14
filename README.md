@@ -1,16 +1,39 @@
-# whatsapp_status_saver
+# WhatsApp Status Saver
 
-A new Flutter project.
+A Simple and Beautiful Whatsapp Status Saver App in Flutter
 
-## Getting Started
+[DOWNLOAD APPLICATION LINK](https://github.com/goswamijay/Whatsapp-Status-Saver/raw/master/Assets/WHATSAPP%20STATUS%20SAVER.apk)
 
-This project is a starting point for a Flutter application.
+## 💫 Uses :
 
-A few resources to get you started if this is your first Flutter project:
+- Provider
+- chewie
+- share_plus
+- video_thumbnail
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## ✨ Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- ⚡ Fast & Light
+- 😎 Clean & Spam Free
+- 😍 Beautiful UI
+- 📩 Simple click to Download
+- 🖨️ Direct to Print
+- 🧑‍🤝‍🧑 Direct Share with others
+
+## 💙 Contribute :
+
+Improvements, Bug Fixes and New Features are warmly welcomed! 🤩
+
+##  Also checkout my other projects:
+
+ - [Whatsapp-Status-Saver](https://github.com/goswamijay/Whatsapp-Status-Saver)
+ - [Google Sheets to Flutter App](https://github.com/goswamijay/Google-Sheets-to-Flutter-App)
+ - [Music Player](https://github.com/goswamijay/Music-Player)
+ - [Weather App](https://github.com/goswamijay/Weather-App)
+ - [Currency Converter](https://github.com/goswamijay/Currency-Converter)
+ - [Stopwatch](https://github.com/goswamijay/Stopwatch)
+
+
+
+
+
