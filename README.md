@@ -2,7 +2,7 @@
 
 A Simple and Beautiful Whatsapp Status Saver App in Flutter
 
-[DOWNLOAD APPLICATION LINK](https://github.com/goswamijay/Whatsapp-Status-Saver/raw/master/Assets/WHATSAPP%20STATUS%20SAVER.apk)
+[DOWNLOAD APPLICATION LINK](https://raw.githubusercontent.com/goswamijay/Whatsapp-Status-Saver/master/Assets/WHATSAPP%20STATUS%20SAVER.apk)
 
 ## 💫 Uses :
 
