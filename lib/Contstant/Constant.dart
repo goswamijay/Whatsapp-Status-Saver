@@ -15,7 +15,7 @@ class AppConstants  {
    AndroidDeviceInfo info = await deviceInfo.androidInfo;
 
    print( info.version.sdkInt.toString());
-   if(info.version.sdkInt < 28){
+   if(info.version.sdkInt < 30){
        Whatsapp_path = "/storage/emulated/0/WhatsApp/Media/.Statuses";
      return Whatsapp_path.toString();
    }else{

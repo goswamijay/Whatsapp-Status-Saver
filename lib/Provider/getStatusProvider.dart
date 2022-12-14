@@ -36,7 +36,7 @@ class getStatusProvider extends ChangeNotifier{
     AndroidDeviceInfo info = await deviceInfo.androidInfo;
 
     print(info.version.sdkInt.toString());
-    if (info.version.sdkInt > 28) {
+    if (info.version.sdkInt > 30) {
       if (status[Permission.storage] == PermissionStatus.denied &&
           status[Permission.manageExternalStorage] == PermissionStatus.denied) {
         Permission.storage.request();
